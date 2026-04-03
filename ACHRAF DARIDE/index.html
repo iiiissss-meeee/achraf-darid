@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achraf Darid - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="home">
+    <nav class="navbar">
+        <a href="#home" id="logo">achraf darid</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact-form">الفريق الرسمي</a></li>
+        </ul>
+    </nav>
+
+    <div class="header-content">
+        <div class="content-text">
+            <p class="text-primary">Hi There, I'm</p>
+            <h1>achraf darid</h1>
+            <p class="title">Frontend Web Developer</p>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <a href="#about_me" class="btn-primary">
+                About Me <i class="fa-solid fa-circle-arrow-down"></i>
+            </a>
+        </div>
+
+        <div class="header-image">
+            <img src="i love you (1).png" alt="achraf photo">
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="i love you (1).png" alt="About Achraf">
+        </div>
+
+        <div class="about-text">
+            <h2 class="section-title">About Me</h2>
+            <p class="description">
+                I'm a passionate <strong>Frontend Web Developer</strong>. I love creating clean, modern, and responsive websites that provide a great user experience. 
+            </p>
+            <p class="description">
+                My journey in coding started with a curiosity for how things work on the web, and now I spend my time building projects with HTML, CSS, and JavaScript.
+            </p>
+            
+            <div class="skills">
+                <div class="skill-item"><i class="fa-solid fa-check"></i> HTML5 & CSS3</div>
+                <div class="skill-item"><i class="fa-solid fa-check"></i> Responsive Design</div>
+                <div class="skill-item"><i class="fa-solid fa-check"></i> Modern UI/UX</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Let's work together! You can reach me through:</p>
+
+        <div class="contact-cards">
+            <a href="https://wa.me/212696304434" target="_blank" class="contact-card">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+                <p>+212 696-304434</p>
+            </a>
+
+            <a href="https://www.instagram.com/il_ys0/" target="_blank" class="contact-card">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+                <p>@il_ys0</p>
+            </a>
+
+            <a href="https://www.tiktok.com/@il0_infp" target="_blank" class="contact-card">
+                <i class="fa-brands fa-tiktok"></i>
+                <span>TikTok</span>
+                <p>@il0_infp</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="contact-form">
+    <div class="contact-container">
+        
+        <div class="contact-info">
+            <p class="section-subtitle">Get In Touch</p>
+            <h2 class="section-title">Let's connect</h2>
+            <p class="contact-description">
+                I'm currently open for new opportunities or collaborations. Feel free to reach out!
+            </p>
+            <img src="contact-illustration.png" alt="Let's connect" class="info-img">
+        </div>
+
+        <div class="form-wrapper">
+            <form action="https://formspree.io/f/xbdpzplv" method="POST">
+                
+                <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Message</label>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                
+                <input type="hidden" name="_subject" value="New submission from your portfolio!">
+
+                <button type="submit" class="btn-submit">
+                    Send Message <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
